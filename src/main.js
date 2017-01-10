@@ -1,5 +1,1 @@
-const {red, green, blue} = require('colors');
-
-console.log(green('hello'));
-
-process.exit(1);
+console.log(require('chalk').green('Hello'));
